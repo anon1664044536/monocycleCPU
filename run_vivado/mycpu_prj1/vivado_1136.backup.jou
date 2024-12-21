@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Dec  8 22:05:36 2024
+# Process ID: 1136
+# Current directory: D:/VivadoCode/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15464 D:\VivadoCode\CPU_CDE2\mycpu_verify\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: D:/VivadoCode/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/vivado.log
+# Journal file: D:/VivadoCode/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoCode/CPU_CDE2/mycpu_verify/run_vivado/mycpu_prj1/mycpu.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 10
+wait_on_run synth_1
+launch_simulation
+source tb_top.tcl
+run all
+reset_run synth_1
+close_sim

@@ -1,0 +1,43 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+==============================================================
+Test begin!
+WARNING in tb_top.soc_lite.data_ram.inst at time              2025000 ns: 
+Reading from out-of-range address. Max address in tb_top.soc_lite.data_ram.inst is        1023
+----[   5105 ns] Number 8'd01 Functional Test Point PASS!!!
+----[  13615 ns] Number 8'd02 Functional Test Point PASS!!!
+----[  17905 ns] Number 8'd03 Functional Test Point PASS!!!
+        [  22000 ns] Test is running, debug_wb_pc = 0x1c005c98
+----[  25135 ns] Number 8'd04 Functional Test Point PASS!!!
+----[  26365 ns] Number 8'd05 Functional Test Point PASS!!!
+----[  31035 ns] Number 8'd06 Functional Test Point PASS!!!
+        [  32000 ns] Test is running, debug_wb_pc = 0x1c00429c
+----[  35385 ns] Number 8'd07 Functional Test Point PASS!!!
+----[  39255 ns] Number 8'd08 Functional Test Point PASS!!!
+        [  42000 ns] Test is running, debug_wb_pc = 0x1c008ccc
+----[  43045 ns] Number 8'd09 Functional Test Point PASS!!!
+----[  47795 ns] Number 8'd10 Functional Test Point PASS!!!
+        [  52000 ns] Test is running, debug_wb_pc = 0x1c00189c
+----[  52025 ns] Number 8'd11 Functional Test Point PASS!!!
+----[  54635 ns] Number 8'd12 Functional Test Point PASS!!!
+----[  57245 ns] Number 8'd13 Functional Test Point PASS!!!
+        [  62000 ns] Test is running, debug_wb_pc = 0x1c001fc8
+----[  63595 ns] Number 8'd14 Functional Test Point PASS!!!
+----[  69625 ns] Number 8'd15 Functional Test Point PASS!!!
+        [  72000 ns] Test is running, debug_wb_pc = 0x1c002fb8
+----[  81935 ns] Number 8'd16 Functional Test Point PASS!!!
+        [  82000 ns] Test is running, debug_wb_pc = 0x1c0004ec
+----[  90675 ns] Number 8'd17 Functional Test Point PASS!!!
+        [  92000 ns] Test is running, debug_wb_pc = 0x1c00a524
+----[  97705 ns] Number 8'd18 Functional Test Point PASS!!!
+        [ 102000 ns] Test is running, debug_wb_pc = 0x1c006c60
+        [ 112000 ns] Test is running, debug_wb_pc = 0x1c007d50
+----[ 114055 ns] Number 8'd19 Functional Test Point PASS!!!
+----[ 121925 ns] Number 8'd20 Functional Test Point PASS!!!
+        [ 122000 ns] Test is running, debug_wb_pc = 0x1c0004f0
+==============================================================
+Test end!
+----PASS!!!
+$finish called at time : 122275 ns : File "D:/VivadoCode/CPU_CDE2/mycpu_verify/testbench/mycpu_tb.v" Line 269
